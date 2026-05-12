@@ -1,0 +1,18 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+
+# VS user settings (個人偏好，不該共享)
+*.user
+*.suo
+.vs/
+
+# Rider / VS Code 的設定（如果有人用）
+.idea/
+
+# NuGet 套件本體（透過 PackageReference 安裝會自動下載，不該進 git）
+packages/
+*.nupkg
